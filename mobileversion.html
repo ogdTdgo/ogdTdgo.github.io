@@ -40,27 +40,144 @@
 </marquee></center>
 <p></p>
 
-<div id="formkeep-embed" data-formkeep-url="https://formkeep.com/p/f3b5b5abca67c1267c4261468ce5b7fe?embedded=1"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha256-bZLfwXAP04zRMK2BjiO8iu9pf4FbLqX6zitd+tIvLhE=" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+<style>
+body {
+  background-color: #000000;
+  font-family: Ubuntu, Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  color: #ffffff;
+}
+.form-control {
+  font-family: Ubuntu, Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  height: inherit;
+}
+select.form-control  {
+  height: 3em;
+}
+.form-check-label {
+  font-weight: normal;
+}
+input[type="checkbox"], input[type=radio] {
+    vertical-align: top;
+    transform: scale(1.5);
+    margin-right: 4px;
+    margin-left: 4px;
+}
+.text-muted {
+  color: #ffffff;
+  filter: brightness(150%)
+}
+.btn {
+  font-size: 1em;
+}
+.btn-primary {
+  color: #b92d2d;
+  background-color: #ff881a;
+  border-color: #ff5e1a;
+  font-size: 1.75em;
+  font-weight: bold;
+}
+.btn-primary.focus,
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary.active,
+.btn-primary:active,
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover {
+  color: #b92d2d;
+  background-color: #ff881a;
+  border-color: #ff5e1a;
+  filter: brightness(.80);
+}
+h1,.h1 {
+  font-size: 3.33em;
+  font-weight: bold;
+}
+h2,.h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+h3,.h3 {
+  font-size: 1.95em;
+}
+h4,.h4 {
+  font-size: 1.67em;
+}
+h5,.h5 {
+  font-size: 1.38em;
+}
+h6,.h6 {
+  font-size: 1.12em;
+}
+</style>
+<div class="container">
+  <div class="row">
+    <section class="container col-xs-12 col-sm-8 col-sm-offset-2 col-xl-6 col-xl-offset-3 my-4">
+        <div class="container" style="width:100%">
+        <form class="" target="_self" enctype="multipart/form-data" action="https://formkeep.com/f/8b4b542a02a5" accept-charset="UTF-8" method="post">
+          <fieldset>
+            <br>
+              <div class="row">
+              <div class="form-group col-xs-12" id="___Pr_nom___Nom__div">
+              <label title="required" for="___Pr_nom___Nom">🏷️ Prénom &amp; Nom *</label>
+              <input type="text" name="🏷️ Prénom &amp; Nom" id="___Pr_nom___Nom" required="required" autofocus="autofocus" class="form-control" />
+          </div>
+          </div>
+              <div class="row">
+              <div class="form-group col-xs-12" id="__Email__div">
+              <label title="required" for="__Email">📧 Email *</label>
+              <input type="email" name="📧 Email" id="__Email" required="required" class="form-control" />
+          </div>
+          </div>
+              <div class="row">
+              <div class="form-group col-xs-12" id="__T_l_phone__div">
+              <label title="required" for="__T_l_phone">📞 Téléphone *</label>
+              <input type="tel" name="📞 Téléphone" id="__T_l_phone" required="required" class="form-control" />
+          </div>
+          </div>
+              <div class="row">
+              <div class="form-group col-xs-12" id="__Message__div">
+              <label title="required" for="__Message">📃 Message *</label>
+              <textarea name="📃 Message" id="__Message" required="required" placeholder="Merci de votre message !" class="form-control" style="height: 400px";>
+</textarea>
+          
+          <br>
+          <div style="opacity:0;position:absolute;top:0;left:-5000px;height:0;width:0">
+            <label for="subscribe_8b4b542a02a5_44566"></label>
+            <input name="subscribe_8b4b542a02a5_44566" value="" tabindex="-1" autocomplete="off"
+                   type="email" id="email_subscribe_8b4b542a02a5_44566" placeholder="Your email here">
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <input type="submit" value="Envoyer !" class="btn btn-block btn-primary" data-disable-with="Envoyer !" style="font-size: 28px;">
+            </div>
+          </div>
+        </fieldset>
+</form>
 
-<script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
-<script type="text/javascript" src="https://formkeep-production-herokuapp-com.global.ssl.fastly.net/formkeep-embed.js"></script>
+</td>
+</tr>
+</tbody>
+</table>
 
-<!-- Get notified when the form is submitted, add your own code below: -->
-<script>
-const formkeepEmbed = document.querySelector('#formkeep-embed')
 
-formkeepEmbed.addEventListener('formkeep-embed:submitting', _event => {
-  console.log('Submitting form...')
-})
 
-formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
-  console.log('Submitted form...')
-})
-</script>
 
-<span style ="color: #ffffff; bold">________________________________________________________</span>
+
+          
+          <br>
+          <br>
+           <center> <span style ="color: #ffffff; bold">________________________________________________________</span>
 <p></p>
-<span style="color: #ffffff; font-family: georgia, palatino, serif;"><b><em><span style="text-decoration: underline; color: #ffa300">À propos de mon parcours:</span> originaire du Sud-Ouest de la France </em>🦆<em>, j'ai effectué ma formation classique au conservatoire de Bordeaux </em>🍷<em>, puis me suis formé au jazz en auto-didacte.</em>
+<span style="color: #ffffff; font-family: georgia, palatino, serif; font-size: 15px"><h3><b><em><span style="text-decoration: underline; color: #ffa300">À propos de mon parcours:</span> originaire du Sud-Ouest de la France </em>🦆<em>, j'ai effectué ma formation classique au conservatoire de Bordeaux </em>🍷<em>, puis me suis formé au jazz en auto-didacte.</em>
 <br>
 <p><em>Enseignant en parallèle, j'ai par la suite réintégré le conservatoire pour valider mes connaissances </em>🏆<em> et ainsi obtenir le </em><a href="https://fr.wikipedia.org/wiki/Dipl%C3%B4me_d%27%C3%A9tudes_musicales,_dipl%C3%B4me_d%27%C3%A9tudes_chor%C3%A9graphiques,_dipl%C3%B4me_d%27%C3%A9tudes_th%C3%A9%C3%A2trales" style="color: #ffa300" target="_blank">D.E.M de Jazz et Musiques Actuelles</a>. 
 <p><em>Mon parcours s'est toujours accompagné de scènes, de projets, de <a href="https://www.gillesrea.com/wp-content/uploads/2016/03/Steve-Coleman-on-Charlie-Parker-French.pdf" style="color: #ffa300" target="_blank">travaux théoriques</a> et également de voyages et échanges musicaux </em>🎷<em> (Melbourne et Jakarta notamment </em>🌄).</p></b></h3></span>
@@ -68,10 +185,7 @@ formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
 <span style="color: #ffa300">Merci de votre attention =)</span>
 <br><span style ="color: #ffffff; bold">________________________________________________________</span>
 <br><i style="font-size: smaller;">©NoumeaSax, 2024. Tous droits réservés.</i>
+           </center>
 </span>
-</td>
-</tr>
-</tbody>
-</table>
   </body>
 </html>
